@@ -2,7 +2,7 @@ body {
 	background-image: url(blue_neon_light.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	margin: 50px; 
+	margin: 50px;
 }
 
 /*****menu********/
@@ -24,7 +24,7 @@ body {
     float: left;
     position: relative;
 	height: 70px;
-	width: 150px;
+	width: 157px;
 }
 .menu a {
 	display: block;
@@ -46,15 +46,12 @@ body {
 } 
 .menu .left_menu_item a {
 	border-bottom-left-radius: 10px;
-	border-top-left-radius: 10px;
+	border-top-left-radius: 10px;	
 }
 .menu .right_menu_item a {
 	border-bottom-right-radius: 10px;
 	border-top-right-radius: 10px;
 }
-.logo {
-	float: left;
+.menu .left_menu_item .banner {
+	/* display: inline-table; */
 }
-
-
-
