@@ -80,7 +80,7 @@
   <ItemGroup>
     <Content Include="Contact.aspx" />
     <Content Include="Games.aspx" />
-    <Content Include="About.aspx">
+    <Content Include="History.aspx">
       <BrowseToURL>~/History.aspx</BrowseToURL>
     </Content>
     <Content Include="Global.asax" />
@@ -136,6 +136,7 @@
     <None Include="Resources\window_icon.png" />
     <None Include="Resources\wood.jpg" />
     <None Include="Resources\wood_grain.jpg" />
+    <Content Include="Shop.aspx" />
     <Content Include="Style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -154,12 +155,12 @@
     <Compile Include="Games.aspx.designer.cs">
       <DependentUpon>Games.aspx</DependentUpon>
     </Compile>
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="History.aspx.cs">
+      <DependentUpon>History.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
+    <Compile Include="History.aspx.designer.cs">
+      <DependentUpon>History.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -190,6 +191,13 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Shop.aspx.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shop.aspx.designer.cs">
+      <DependentUpon>Shop.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
