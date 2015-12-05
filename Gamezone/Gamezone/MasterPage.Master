@@ -22,7 +22,7 @@
 				        <li class="left_menu_item"><a href="#"><img class="banner" src="http://images.cooltext.com/4492893.png" width="100" height="10" alt="Gameozoid" /></a></li>
 				        <li><a href="#Home">Home</a></li>
                         <li><a href="Games.aspx">Games</a></li>
-                        <li><a href="About.aspx">About us</a></li>
+                        <li><a href="History.aspx">History</a></li>
 				        <li><a href="Contact.aspx">Contact</a></li>
 				        <li><a href="Shop.aspx">Shop</a></li>
 				        <li class="right_menu_item"><a href="#">Log In</a></li>

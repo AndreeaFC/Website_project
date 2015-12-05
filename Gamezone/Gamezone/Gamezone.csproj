@@ -80,7 +80,9 @@
   <ItemGroup>
     <Content Include="Contact.aspx" />
     <Content Include="Games.aspx" />
-    <Content Include="About.aspx" />
+    <Content Include="About.aspx">
+      <BrowseToURL>~/History.aspx</BrowseToURL>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
