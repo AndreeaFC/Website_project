@@ -17,7 +17,7 @@ body {
 }
                                                   /*** Banner ***/
 #banner {
-	background: black;
+	background: rgba(70,70,70,1);
 	height: 150px;
 	padding: 30px;
 	clear: both;
