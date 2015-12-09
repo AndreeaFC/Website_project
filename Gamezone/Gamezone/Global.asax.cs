@@ -11,6 +11,11 @@ namespace Gamezone
     {
         protected void Application_Start(object sender, EventArgs e)
         {
-        }
+			System.Web.UI.ScriptManager.ScriptResourceMapping.AddDefinition("jquery",
+				new System.Web.UI.ScriptResourceDefinition {
+					Path = "~/Javascript/jquery-2.1.4.js",
+					DebugPath = "~/Javascript/jquery-2.1.4.js"
+				});
+		}
     }
 }

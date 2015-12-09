@@ -5,7 +5,7 @@
     <br /><br />
     <div class="Login">
         <br />
-        <div class="Login_Form">
+        <form class="Login_Form" runat="server">
             <br />
             <h1>Secure Login</h1>
             <asp:TextBox ID="TextBox1" runat="server" placeholder="Username" CssClass="Login_un"></asp:TextBox>
@@ -18,7 +18,8 @@
                 SetFocusOnError="true"
                 FontColor="Red"
                 Font-Names="Segoe UI"
-                Font-Size="13px"></asp:RequiredFieldValidator>
+                Font-Size="13px">
+            </asp:RequiredFieldValidator>
 
             <asp:TextBox ID="TextBox2" runat="server" placeholder="Password" CssClass="Login_ps"></asp:TextBox>
             <br />
@@ -30,10 +31,11 @@
                 SetFocusOnError="true"
                 FontColor="Red"
                 Font-Names="Segoe UI"
-                Font-Size="13px"></asp:RequiredFieldValidator>
+                Font-Size="13px">
+            </asp:RequiredFieldValidator>
             <asp:Button ID="Button1" runat="server" Text="Login" CssClass="Login_btn"></asp:Button>
             <br />
             <asp:Label ID="Label1" runat="server" Text="Check your 'Username' or 'Password'" CssClass="Login_lbl" visible="false"></asp:Label>        
-        </div>
+        </form>
     </div>
 </asp:Content>
